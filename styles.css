@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --blue-twitter: #1da1f2;
+}
+
+body {
+  padding: 7.5rem 11.3rem 11.3rem 7.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.name,
+.job-role,
+.education-title {
+  color: var(--blue-twitter);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1.4rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.company-name,
+.institution-name {
+  font-weight: bold;
+}
+
+.job-description,
+.education-description {
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.description {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.language,
+.tecknowledge {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+header address {
+  font-style: normal;
+}
+
+@media print {
+  body {
+    padding: 0;
+  }
+}
